@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*start nav section*/
+
+.ing{
+    margin-right: 100px;
+}
+.fa-beat{
+    margin-right: 30px;
+}
+/*end nav section*/
+/*start profile section*/
+
+
+hr{
+    background-color: #000;
+}
+.addd  a button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(17, 72, 175);
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.addd  a button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(17, 72, 175);
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.addd a button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(17, 72, 175);
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.profile{
+border: 2.5px solid #000;
+width: 90%;
+margin: auto;
+margin-top: 50px;
+padding-bottom: 20px;
+}
+
+
+/*end profile section*/
+/*start footer section*/
+.foot{
+margin-top: 100px;
+color: 
+#4543AE;
+text-align: center;
+padding-top: 20px;
+background-color:#D9D9D9;
+
+padding-bottom: 30px;
+}
+
+/*end footer section*/
+
+.cca{
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 45px;
+    
+}
+/*end see section*/
+
+
+
+
+/*start details section*/
+
+
+/*end details section*/
+/*start descreption section*/
+.descreption{
+    box-shadow: 1px 1px 1px 1px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/*end descreption section*/
+
+
+
+.left
+{
+    margin-top: 20%;
+}
+
+ 
+  .sign a button{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    background-color: #4543AE;
+    color: #fff;
+    width: 20%;
+    padding: 3px;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: IBM Plex Sans;
+    margin-top: 10px;
+    
+}
+
+.sign .a1 button{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    background-color: #1877F2;
+    color: #fff;
+    width: 30%;
+    padding: 3px;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: IBM Plex Sans;
+    
+}
+
+.sign .a2 button{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    background-color: #F44336;
+    color: #fff;
+    width: 30%;
+    padding: 3px;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: IBM Plex Sans;
+    
+} 
+/*nada*/
+.details {
+    border-bottom: none;
+}
+.car,.egp,.details,.description{
+    border: 3px solid #000;
+    width: 80%;
+}
+
+.text{
+    width: 80%;
+}
+
+.egpt ,.safety{
+    width: 100%;
+    height: 320px;
+    border: 1px solid silver;
+}
+
+@media  only screen and (max-width: 768px){
+    .egpt{
+        width: 90%;
+          height: 430px;
+         
+      }
+    .safety{
+        width: 90%;
+        height: 290px;
+    }
+   .details{
+    max-width: 100%;
+    width: 100%;
+    
+   }
+
+   
+
+    
+}
+.buttonnn a button{
+    /* padding: 2%; */
+    width: 100%;
+    font-size: 18px;
+    border-radius: 17px;
+    padding: 5px 25px;
+    
+}
+@media  only screen and (max-width: 844px){
+    a button{
+        font-size: 16px;
+        padding: 1px;
+        width: 30%;
+    }
+
+
+    .a1 button{
+        font-size: 16px;
+        width: 40%;
+        
+    }
+
+
+    .a2 button{
+        font-size: 16px;
+        width: 40%;
+        
+    }
+       
+}
+
+
+
+
+
+@media  only screen and (max-width: 844px){
+    nav{
+        padding: 2%;
+    }
+}
+
+
+
+@media  only screen and (max-width: 844px){
+    .fa-regular{
+        display: none;
+    }
+
+    .fa-solid{
+        display: none;
+    }
+
+}
+
+
+@media  only screen and (max-width: 844px){
+    .abrar{
+        display: none;
+    }
+
+
+     a .abra button{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/*nada saied*/
+
+
+nav{
+    background-color: #D9D9D9;
+    height: 60px;
+}
+nav img{
+     background-color:#D9D9D9 ;
+     width: 40px;
+     height: 40px;
+    }
+
+span{
+    color: #4543AE;
+}
+nav .bar{
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 34px;
+}
+
+.form{
+    border: 2.5px solid #000;
+}
+
+
+
+
+hr{
+    background-color: #000;
+}
+
+
+a button{
+    background-color: #4543AE;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 17px;
+    padding: 10px 25px;
+}
+
+/* master  */
+
+.profille{
+    border-right: 1px solid #000;
+    height: 800px;
+}
+
+
+
+@media  only screen and (max-width: 768px){
+    .profille{
+    border-right: none;
+    height: 500px;
+}
+.img{
+    width: 20%;
+    height: 35%;
+}
+
+}
+
+
+
+
+
+
+
+.foot{
+    margin-top: 100px;
+    color: #4543AE;
+    text-align: center;
+    padding-top: 20px;
+    background-color:
+    #D9D9D9;
+    
+    padding-bottom: 30px;
+    }
+/*nada saied*/

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add car</title>
+           <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                        <!-- fontawsem  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+                     <!-- fontgoogle  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                         <!-- filecss  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+                    <!-- start nav  -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-arrow-left-long" ></i></a>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" ><img src="img/sport-car.png"></a>
+              <a class="nav-link active bar">Rent<span>ing</span></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+                <!-- end nav  -->
+
+                   <!-- start form  -->
+   
+        <h3 class="text-center">Post your ad</h3>
+        <div class="container-fluid px-4">
+            <div class="row">
+                <div class="col-md-12">
+              <div class="form px-4">
+                <h3 class="m-2">Cars for Rent</h3>
+                <hr>
+            <form> 
+                <h3 class="m-2 p-1">Incloud some details</h3>
+                <div class="form-group">
+                  <label class="m-2">Add title</label>
+                  <input type="text" class="form-control " value="Kia Sportage for rent">
+                  <small id="emailHelp" class="form-text text-muted">List the main features of your item (eg brand, model, type)</small>
+                </div>
+
+                <div>
+                    <label class="m-2">Transmission Type </label>
+                </div>
+                <div class="form-check form-check-inline m-2 p-2">
+                    <input class="form-check-input" type="radio" name="car" checked >
+                    <label class="form-check-label"  >Automatic</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="car"  >
+                    <label class="form-check-label">Manual</label>
+                  </div>
+
+                  <div>
+                    <label class="m-2">Rental Period </label>
+                </div>
+                <div class="form-check form-check-inline m-2 p-2">
+                    <input class="form-check-input" type="radio"  name="days">
+                    <label class="form-check-label" >Daily</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"  name="days" checked  >
+                    <label class="form-check-label" >Monthly</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"  name="days" >
+                    <label class="form-check-label" >Yearly</label>
+                  </div>
+
+                  <div>
+                    <label class="m-2">Rental Option</label>
+                </div>
+                <div class="form-check form-check-inline m-2 p-2">
+                    <input class="form-check-input" type="radio"   name="driver" >
+                    <label class="form-check-label" >With Driver</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="driver" checked>
+                    <label class="form-check-label" >Without Driver</label>
+                  </div>
+                
+                  <div class="form-group">
+                    <label class="m-2">Body Type</label>
+                    <input type="text" class="form-control " value="SUV">
+                  </div>
+              
+                  <div class="form-group">
+                    <label class="m-2">Kilometers</label>
+                    <input type="text" class="form-control " value="1945">
+                  </div>
+
+
+               <div>
+                    <label class="m-2">Fuel Type</label>
+                </div>
+                <div class="form-check form-check-inline m-2 p-2">
+                    <input class="form-check-input" type="radio" name="status" checked>
+                    <label class="form-check-label" >Benzine</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="status" >
+                    <label class="form-check-label" >Diesel</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="status">
+                    <label class="form-check-label" >Electric</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"name="status" >
+                    <label class="form-check-label" >Natural Gas</label>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="m-2 p-1">Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" >Kia Sportage for rent without driver. The minimum rental period is Month</textarea>
+                    <small id="emailHelp" class="form-text text-muted">Include the condition, features and reason for the rental</small>
+                  </div>
+                  <hr>
+
+
+                  <label class="m-2 p-1">Set a price</label>
+                  <div class="input-group">
+                   
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">EGP</span>
+                    </div>
+                    <input type="text" aria-label="First name" class="form-control" value="3,350">
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" checked >
+                      <label class="form-check-label">
+                        Negotiable
+                      </label>
+                    </div>
+                    <hr>
+                       
+                    <div class="form-group">
+                    <div>
+                        <label class="m-2">Upload up to 10 photos</label>
+                    </div>
+                       <img src="img/46_slider_800x450px_0001.jpg" class="m-2" style="width: 60px;
+                       height: 60px;">
+                      </div>
+                      <hr>
+
+                      <div class="form-group">
+                        <label class="m-2">Your Ad's Location</label>
+                        <input type="text" class="form-control " value="Gharbia Governorate, Tanta, Stadium Street">
+                      </div>
+                      <hr>
+                      <label class="m-2">Review your details</label>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-1 d-flex justify-content-end align-items-center">
+                            <img src="img/photo1685995421.jpeg" style="width: 90px;
+                            height: 90px;
+                            border-radius: 50px;
+                            ">
+                          </div>
+                          <div class="col-md-11">
+                            <label class="m-2">Name</label>
+                            <input type="text" class="form-control " value="Ahmed Sherif">
+                          </div>
+                        </div>
+                        
+                      
+                      </div>
+
+                      <div class="form-group">
+                        <label class="m-2">Mobile Phone Number</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">+20</span>
+                            </div>
+                            <input type="text" aria-label="First name" class="form-control" value="1030088483">
+                          </div>
+                      </div>
+
+                      <div>
+                        <label class="m-2">Contact Method</label>
+                    </div>
+                    <div class="form-check form-check-inline m-2 p-2">
+                        <input class="form-check-input" type="radio" name="phone" >
+                        <label class="form-check-label" >Phone Number</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio"name="phone" >
+                        <label class="form-check-label" >Renting Chat</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="phone" checked>
+                        <label class="form-check-label" >Both</label>
+                      </div>
+                      <hr>
+                      <a href="aa.html"><button type="button" class="m-2">Post Now</button></a>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <!-- end form  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

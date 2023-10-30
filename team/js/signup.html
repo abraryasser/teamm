@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+                <div style="background: #D9D9D9;
+                border-radius: 0px 0px 426.5px 0px;
+               margin-right: 60px; margin-top: 7px;
+                height: 700px;">
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-8 mt-5">
+                <h1 class="text-center mr-5 p-4" 
+                style="margin-top: 10px;
+                font-family: IBM Plex Sans;"
+                >Sign Up</h1>
+                <form method="post" action="ver.html" onsubmit=" return validate();">
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+
+                        <div class="form-group">
+                            <label>E-Mail</label>
+                            <input type="email" class="form-control" id="email">
+
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                           
+                            <input type="password" class="form-control" id="password"> <i class="fa-regular fa-eye-slash"style="position:absolute;
+                            
+                            right: 20px;bottom: 86px;"></i>
+
+                        </div>
+
+                        <label style="font-size: larger;font-weight: 600;">GENDER</label>
+                        <br>
+                        <input type="radio" value="male" name="gender"> Male
+                        <input type="radio" value="female" name="gender" style="margin-left: 120px;">Female
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" id="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" class="form-control" id="phone" placeholder="+20">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                           
+                            <input type="password" class="form-control" id="confirmpassword"> <i class="fa-regular fa-eye-slash" style="position:absolute;
+                           
+                            right: 20px;bottom: 86px;"></i>
+                            
+
+                        </div>
+                    </div>
+               
+                </div>
+            </form>
+                  <div class="sign">
+                <a href="ver.html" class="mt-4 ml-5 px-2"><button type="submit">Sign Up</button></a>
+                <a href="#" class=" ml-5 px-2 a1"><button><i class="fa-brands fa-facebook p-1" style="color: #fff;"></i>continue with facebook</button></a>
+                <a href="#" class=" ml-5 px-2 a2"><button ><i class="fa-regular fa-envelope-open p-1" style="color: #ffffff;"></i>continue with Gmail</button></a>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+  
+
+
+
+
+        <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
